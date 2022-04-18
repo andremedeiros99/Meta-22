@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Andre/Ufla/WebDev/Meta-2/Clientes</OriginalElement>
+  <nodes>
+    <node x="1307.0" y="1820.0">io.github.project.clientes.exception.UsuarioCadastradoException</node>
+    <node x="0.0" y="1820.0">io.github.project.clientes.rest.exception.ApiErrors</node>
+    <node x="772.0" y="1820.0">io.github.project.clientes.config.ResourceServer</node>
+    <node x="402.8648648648648" y="1058.0">io.github.project.clientes.util.BigDecimalConverter</node>
+    <node x="488.91891891891885" y="377.0">io.github.project.clientes.model.entity.Cliente</node>
+    <node x="0.0" y="1232.0">io.github.project.clientes.rest.ClienteController</node>
+    <node x="495.41891891891885" y="0.0">io.github.project.clientes.model.entity.Cliente.ClienteBuilder</node>
+    <node x="1051.0" y="1820.0">io.github.project.clientes.ClientesApplication</node>
+    <node x="658.8648648648648" y="1071.5">io.github.project.clientes.model.repository.ServicoPrestadoRepository</node>
+    <node x="655.0" y="1500.0">io.github.project.clientes.config.AuthorizationServer</node>
+    <node x="253.0" y="1820.0">io.github.project.clientes.config.WebConfig</node>
+    <node x="130.61486486486478" y="1086.0">io.github.project.clientes.model.repository.ClienteRepository</node>
+    <node x="0.0" y="1500.0">io.github.project.clientes.rest.dto.ServicoPrestradoDTO</node>
+    <node x="1434.4898648648648" y="444.0">io.github.project.clientes.service.UsuarioService</node>
+    <node x="1634.1148648648648" y="688.0">io.github.project.clientes.rest.UsuarioController</node>
+    <node x="824.1148648648648" y="782.0">io.github.project.clientes.model.entity.ServicoPrestado</node>
+    <node x="1251.1148648648648" y="649.0">io.github.project.clientes.config.SecurityConfig</node>
+    <node x="271.0" y="1500.0">MavenWrapperDownloader</node>
+    <node x="1522.3648648648648" y="0.0">io.github.project.clientes.model.entity.Usuario</node>
+    <node x="411.3648648648648" y="1245.0">io.github.project.clientes.rest.ServicoPrestradoController</node>
+    <node x="1377.8648648648648" y="301.0">io.github.project.clientes.model.repository.UsuarioRepository</node>
+    <node x="1105.0" y="1500.0">io.github.project.clientes.rest.ApplicationControllerAdvice</node>
+    <node x="1667.0" y="1500.0">io.github.project.clientes.config.InternacionalizacaoConfig</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.github.project.clientes.model.entity.Cliente.ClienteBuilder" target="io.github.project.clientes.model.entity.Cliente" relationship="INNER_CLASS">
+      <point x="75.25" y="163.5" />
+      <point x="721.1689189189188" y="352.0" />
+      <point x="724.4189189189188" y="352.0" />
+      <point x="78.5" y="-176.5" />
+    </edge>
+    <edge source="io.github.project.clientes.config.SecurityConfig" target="io.github.project.clientes.service.UsuarioService" relationship="TO_ONE">
+      <point x="-90.75" y="-98.5" />
+      <point x="1341.8648648648648" y="629.0" />
+      <point x="1427.6148648648648" y="629.0" />
+      <point x="1427.6148648648648" y="619.0" />
+      <point x="1512.2398648648648" y="619.0" />
+      <point x="-77.75" y="72.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ServicoPrestradoController" target="io.github.project.clientes.util.BigDecimalConverter" relationship="DEPENDENCY">
+      <point x="162.25" y="-98.5" />
+      <point x="897.8648648648648" y="1171.0" />
+      <point x="579.8648648648648" y="1171.0" />
+      <point x="59.0" y="46.0" />
+    </edge>
+    <edge source="io.github.project.clientes.model.repository.UsuarioRepository" target="io.github.project.clientes.model.entity.Usuario" relationship="DEPENDENCY">
+      <point x="0.0" y="-45.5" />
+      <point x="1543.3648648648648" y="275.0" />
+      <point x="1631.3648648648648" y="275.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="io.github.project.clientes.service.UsuarioService" target="io.github.project.clientes.model.repository.UsuarioRepository" relationship="TO_ONE">
+      <point x="-77.75" y="-72.5" />
+      <point x="1512.2398648648648" y="423.0" />
+      <point x="1460.6148648648648" y="423.0" />
+      <point x="-82.75" y="45.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ServicoPrestradoController" target="io.github.project.clientes.model.entity.ServicoPrestado" relationship="DEPENDENCY">
+      <point x="162.25" y="-98.5" />
+      <point x="897.8648648648648" y="1171.0" />
+      <point x="1137.3648648648648" y="1171.0" />
+      <point x="1137.3648648648648" y="1031.0" />
+      <point x="1015.1148648648648" y="1031.0" />
+      <point x="0.0" y="111.0" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ServicoPrestradoController" target="io.github.project.clientes.model.repository.ClienteRepository" relationship="DEPENDENCY">
+      <point x="162.25" y="-98.5" />
+      <point x="897.8648648648648" y="1181.0" />
+      <point x="224.61486486486478" y="1181.0" />
+      <point x="224.61486486486478" y="1171.0" />
+      <point x="180.11486486486478" y="1171.0" />
+      <point x="-49.5" y="18.0" />
+    </edge>
+    <edge source="io.github.project.clientes.model.entity.ServicoPrestado" target="io.github.project.clientes.model.entity.Cliente" relationship="TO_ONE">
+      <point x="95.5" y="-111.0" />
+      <point x="1110.6148648648648" y="751.0" />
+      <point x="724.4189189189188" y="751.0" />
+      <point x="78.5" y="176.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ServicoPrestradoController" target="io.github.project.clientes.model.repository.ServicoPrestadoRepository" relationship="TO_ONE">
+      <point x="-162.25" y="-98.5" />
+      <point x="573.6148648648648" y="1211.0" />
+      <point x="458.74999999999994" y="1211.0" />
+      <point x="458.74999999999994" y="1201.0" />
+      <point x="775.8648648648648" y="1201.0" />
+      <point x="-117.0" y="32.5" />
+    </edge>
+    <edge source="io.github.project.clientes.service.UsuarioService" target="io.github.project.clientes.model.entity.Usuario" relationship="DEPENDENCY">
+      <point x="77.75" y="-72.5" />
+      <point x="1667.7398648648648" y="423.0" />
+      <point x="1594.9898648648648" y="423.0" />
+      <point x="1594.9898648648648" y="413.0" />
+      <point x="1719.3648648648648" y="413.0" />
+      <point x="1719.3648648648648" y="275.0" />
+      <point x="1631.3648648648648" y="275.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ServicoPrestradoController" target="io.github.project.clientes.model.repository.ClienteRepository" relationship="TO_ONE">
+      <point x="-162.25" y="-98.5" />
+      <point x="573.6148648648648" y="1211.0" />
+      <point x="458.74999999999994" y="1211.0" />
+      <point x="458.74999999999994" y="1191.0" />
+      <point x="234.61486486486478" y="1191.0" />
+      <point x="234.61486486486478" y="1171.0" />
+      <point x="279.1148648648648" y="1171.0" />
+      <point x="49.5" y="18.0" />
+    </edge>
+    <edge source="io.github.project.clientes.model.entity.ServicoPrestado" target="io.github.project.clientes.model.entity.Cliente" relationship="DEPENDENCY">
+      <point x="-95.5" y="-111.0" />
+      <point x="919.6148648648648" y="761.0" />
+      <point x="640.9189189189188" y="761.0" />
+      <point x="640.9189189189188" y="751.0" />
+      <point x="567.4189189189188" y="751.0" />
+      <point x="-78.5" y="176.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.UsuarioController" target="io.github.project.clientes.service.UsuarioService" relationship="DEPENDENCY">
+      <point x="68.0" y="-59.5" />
+      <point x="1838.1148648648648" y="619.0" />
+      <point x="1775.1148648648648" y="619.0" />
+      <point x="1775.1148648648648" y="609.0" />
+      <point x="1667.7398648648648" y="609.0" />
+      <point x="77.75" y="72.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ClienteController" target="io.github.project.clientes.model.repository.ClienteRepository" relationship="DEPENDENCY">
+      <point x="-71.25" y="-111.5" />
+      <point x="71.25" y="1211.0" />
+      <point x="160.6351351351351" y="1211.0" />
+      <point x="160.6351351351351" y="1201.0" />
+      <point x="224.61486486486478" y="1201.0" />
+      <point x="224.61486486486478" y="1171.0" />
+      <point x="180.11486486486478" y="1171.0" />
+      <point x="-49.5" y="18.0" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ClienteController" target="io.github.project.clientes.model.repository.ClienteRepository" relationship="TO_ONE">
+      <point x="71.25" y="-111.5" />
+      <point x="213.75" y="1211.0" />
+      <point x="234.61486486486478" y="1211.0" />
+      <point x="234.61486486486478" y="1171.0" />
+      <point x="279.1148648648648" y="1171.0" />
+      <point x="49.5" y="18.0" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ServicoPrestradoController" target="io.github.project.clientes.model.repository.ServicoPrestadoRepository" relationship="DEPENDENCY">
+      <point x="162.25" y="-98.5" />
+      <point x="897.8648648648648" y="1171.0" />
+      <point x="1009.8648648648648" y="1171.0" />
+      <point x="117.0" y="32.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.UsuarioController" target="io.github.project.clientes.service.UsuarioService" relationship="TO_ONE">
+      <point x="-68.0" y="-59.5" />
+      <point x="1702.1148648648648" y="629.0" />
+      <point x="1427.6148648648648" y="629.0" />
+      <point x="1427.6148648648648" y="619.0" />
+      <point x="1512.2398648648648" y="619.0" />
+      <point x="-77.75" y="72.5" />
+    </edge>
+    <edge source="io.github.project.clientes.service.UsuarioService" target="io.github.project.clientes.model.repository.UsuarioRepository" relationship="DEPENDENCY">
+      <point x="77.75" y="-72.5" />
+      <point x="1667.7398648648648" y="423.0" />
+      <point x="1594.9898648648648" y="423.0" />
+      <point x="1594.9898648648648" y="413.0" />
+      <point x="1626.1148648648648" y="413.0" />
+      <point x="82.75" y="45.5" />
+    </edge>
+    <edge source="io.github.project.clientes.config.SecurityConfig" target="io.github.project.clientes.service.UsuarioService" relationship="DEPENDENCY">
+      <point x="90.75" y="-98.5" />
+      <point x="1523.3648648648648" y="619.0" />
+      <point x="1775.1148648648648" y="619.0" />
+      <point x="1775.1148648648648" y="609.0" />
+      <point x="1667.7398648648648" y="609.0" />
+      <point x="77.75" y="72.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ClienteController" target="io.github.project.clientes.model.entity.Cliente" relationship="DEPENDENCY">
+      <point x="-71.25" y="-111.5" />
+      <point x="71.25" y="1211.0" />
+      <point x="160.6351351351351" y="1211.0" />
+      <point x="160.6351351351351" y="1191.0" />
+      <point x="63.0" y="1191.0" />
+      <point x="63.0" y="761.0" />
+      <point x="640.9189189189188" y="761.0" />
+      <point x="640.9189189189188" y="751.0" />
+      <point x="567.4189189189188" y="751.0" />
+      <point x="-78.5" y="176.5" />
+    </edge>
+    <edge source="io.github.project.clientes.rest.ServicoPrestradoController" target="io.github.project.clientes.util.BigDecimalConverter" relationship="TO_ONE">
+      <point x="-162.25" y="-98.5" />
+      <point x="573.6148648648648" y="1211.0" />
+      <point x="458.74999999999994" y="1211.0" />
+      <point x="458.74999999999994" y="1201.0" />
+      <point x="461.8648648648648" y="1201.0" />
+      <point x="-59.0" y="46.0" />
+    </edge>
+    <edge source="io.github.project.clientes.model.repository.ServicoPrestadoRepository" target="io.github.project.clientes.model.entity.ServicoPrestado" relationship="DEPENDENCY">
+      <point x="0.0" y="-32.5" />
+      <point x="892.8648648648648" y="1031.0" />
+      <point x="1015.1148648648648" y="1031.0" />
+      <point x="0.0" y="111.0" />
+    </edge>
+    <edge source="io.github.project.clientes.model.entity.Cliente.ClienteBuilder" target="io.github.project.clientes.model.entity.Cliente" relationship="DEPENDENCY">
+      <point x="-75.25" y="163.5" />
+      <point x="570.6689189189188" y="352.0" />
+      <point x="567.4189189189188" y="352.0" />
+      <point x="-78.5" y="-176.5" />
+    </edge>
+    <edge source="io.github.project.clientes.model.entity.Cliente" target="io.github.project.clientes.model.entity.Cliente.ClienteBuilder" relationship="DEPENDENCY">
+      <point x="-78.5" y="-176.5" />
+      <point x="567.4189189189188" y="352.0" />
+      <point x="570.6689189189188" y="352.0" />
+      <point x="-75.25" y="163.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4330949948927477" showDependencies="true" x="1015.5" y="969.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
