@@ -10,11 +10,27 @@ Esse é um sistema onde clientes podem prestar diferentes serviços e um usuári
 
 - NodeJS + NPM (ambiente do front)
 - Angular
+- Java
+
+## BD
+
+No projeto foi utilizado o banco de dados em memória h2 database que lé scripts em sql.
+
+[H2 DATABASE](https://www.h2database.com/html/main.html)
+
+## IDEs
+
+Foram utilizadas duas IDEs no projeto: `IntelliJ` para rodar localmente o backend, pois, oferece a facilidade de instalaçãos das dependências necessárias para rodar o servidor de banco de dados local.
+E o `VScode` como editor de código por ter plugins especializados, fácil utilização e boa experiência de programação.
 
 ## Instalação
 
 Na pasta clientes-app abra o prompt de comando e digite "npm install".
 Na pasta Clientes é necessário instalar as dependências do Spring Boot, utilizando a IDE IntelliJ IDEA, apenas abra o projeto e espere alguns minutos
+
+## Desenvolvimento
+
+No `IntelliJ` rodar a aplicação da pasta Clientes configurada como `Spring Boot` e em paralelo na pasta clientes-app executar o comando `npm run start` para ligar o servidor de front-end.
 
 ## Tecnologias
 
