@@ -1,0 +1,59 @@
+<div>
+    <ngx-datatable
+        #table 
+        class="material fixed-header"
+        [rows]="rows"
+        [loadingIndicator]="loadingIndicator"
+        [columns]="columns"
+        [columnMode]="ColumnMode"
+        [headerHeight]="55"
+        [footerHeight]="50"
+        [reorderable]="reorderble"
+        [limit]="5"
+        >
+            <ngx-datatable-column
+                [width]="90"
+                [sortable]="true"
+                [canAutoResize]="false"
+                [draggable]="false"
+                [resizeable]="false"
+                prop="nome"    
+            >
+                <ng-template
+                    let-row="rows"
+                    let-value="value"
+                    ngx-datatable-cell-template
+                >
+                <i>{{ value }}</i>
+                </ng-template> 
+            </ngx-datatable-column>
+            <ngx-datatable-column
+                [width]="90"
+                [sortable]="true"
+                name="Idade"
+                prop="idade"
+            >
+                <ng-template
+                    let-row="row"
+                    let-value="value"
+                    ngx-datatable-cell-template
+                    >
+                    <i> {{ value }}</i>
+                </ng-template>
+            </ngx-datatable-column>
+            <ngx-datatable-column
+                [width]="90"
+                [sortable]="true"
+                name="Descrição"
+                prop="descricao"
+            >
+                <ng-template
+                    let-row="row"
+                    let-value="value"
+                    ngx-datatable-cell-template
+                    >
+                    <i> {{ value }}</i>
+                </ng-template>
+            </ngx-datatable-column>
+    </ngx-datatable>
+</div>
