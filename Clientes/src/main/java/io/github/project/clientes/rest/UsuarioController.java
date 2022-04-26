@@ -17,7 +17,6 @@ import javax.validation.Valid;
 public class UsuarioController {
 
     private final UsuarioService service;
-
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public void salvar(@RequestBody @Valid Usuario usuario){

@@ -18,6 +18,8 @@ import { AuthService } from './auth.service';
 import { TokenInterceptor } from './token.interceptor';
 import { TabelaComponent } from './tabela/tabela.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { ServicoContratadoModule } from './servico-contratado/servico-prestado.module';
+import { ServicoContratadoService } from './servico-contratado.service';
 
 @NgModule({
   declarations: [
@@ -35,11 +37,13 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     TemplateModule,
     ClientesModule,
     ServicoPrestadoModule,
+    ServicoContratadoModule,
     NgxDatatableModule
   ],
   providers: [
     ClientesService,
     ServicoPrestadoService,
+    ServicoContratadoService,
     AuthService,
     {
       provide: HTTP_INTERCEPTORS,
